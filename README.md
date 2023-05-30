@@ -15,7 +15,7 @@ Function explanation:
   - Speak the text given to it
   - text: the text to be translated to speech
   - voice: the name of the voice which will read out the text
-    (the default is en-fr1 you can check out get_voices() for more info)
+    (the default is mb-en1 you can check out get_voices() for more info)
   - pitch: the pitch of the voice in integer range of 0 to 99 (default is 50)
   - speed: the speed in words per minute of the speech in integer range of 80 to 450 (default is 175)
   - vol: the volume in integer range from 0 to 200 (default is 100)

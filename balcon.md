@@ -12,4 +12,5 @@ How to install balcon and use it through Python:
 
   WINEPREFIX="$HOME/prefix32" wine "$HOME/prefix32/drive_c/Program Files/balcon/balcon.exe" balcon -n Zira -t "Hello World"
 
-9. If it works then yay congrats you can now use the balcon function in the python file. if it does not then I also have no idea how to fix it
+10. If it works then yay congrats you can now use the balcon function in the python file. if it does not then I also have no idea how to fix it
+11. For more voices please follow the final steps in the tutorial of step 3.

@@ -30,3 +30,12 @@ Function explanation:
 3. help():
   - list all commands which could be run in the terminal with espeak
   - equivalent to running "espeak -h" in the terminal
+
+4. festival(text):
+  - speak the text using the festival model
+
+6. balcon(text):
+  - speak the text using a micorsoft model
+  - the commands are sketchy as it is created by me and I have no idea what kind of things gonna happen
+  - Pro: extremely good sounding
+  - Con: I have no idea how the command works

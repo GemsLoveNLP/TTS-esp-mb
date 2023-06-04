@@ -6,4 +6,4 @@ import cli
 while True:
     i = input()
     if i=='q':break
-    cli.balcon(i, name='ZiraPro')
+    cli.balcon(i)

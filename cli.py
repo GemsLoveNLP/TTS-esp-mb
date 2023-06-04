@@ -21,13 +21,18 @@ def festival(text):
     cmdLine.run(command, shell=True)
 
 # balcon
-def balcon(text, name='Hazel'):
-    command = f'WINEPREFIX="$HOME/prefix32" wine "$HOME/prefix32/drive_c/Program Files/balcon/balcon.exe" balcon -n {name} -t "{text}"'
+def balcon(text, name='ZiraPro'):
+    command = f'WINEPREFIX="$HOME/prefix32" wine "$HOME/prefix32/drive_c/Program Files/balcon.exe" balcon -n {name} -t "{text}"'
     cmdLine.run(command, shell=True)
 
 def balcon_list():
-    cmdLine.run('WINEPREFIX="$HOME/prefix32" wine "$HOME/prefix32/drive_c/Program Files/balcon/balcon.exe" balcon -l', shell=True)
+    cmdLine.run('WINEPREFIX="$HOME/prefix32" wine "$HOME/prefix32/drive_c/Program Files/balcon.exe" balcon -l', shell=True)
+
+def compare(text):
+    speak(text)
+    balcon(text)
 
 # get_voices()
 # help()
-# balcon_list()
+balcon_list()
+

@@ -4,9 +4,12 @@ Definition:
 - The things this file can do can be acheived through the command line
 
 Prereq:
+for espeak+mbrola:
 - install espeak
 - install mbrola
 - for installation guide check out <https://youtu.be/stMPWkRvTSA>
+for balcon (prefered):
+- run the "install.sh" file
 
 
 Function explanation:
@@ -39,3 +42,6 @@ Function explanation:
   - the commands are sketchy as it is created by me and I have no idea what kind of things gonna happen
   - Pro: extremely good sounding
   - Con: I have no idea how the command works
+
+7. balcon_list():
+  - list all available SAPI voices

@@ -3,16 +3,18 @@ Definition:
 - This file is just a way for python to be able to access the espeak installed on your machine 
 - The things this file can do can be acheived through the command line
 
-Prereq:
+# Prereq:
+
 for espeak+mbrola:
 - install espeak
 - install mbrola
 - for installation guide check out <https://youtu.be/stMPWkRvTSA>
+
 for balcon (prefered):
 - run the "install.sh" file
 
 
-Function explanation:
+# Function explanation:
 
 1. speak(text, voice, pitch, speed):
   - Speak the text given to it

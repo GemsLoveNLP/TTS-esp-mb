@@ -10,8 +10,14 @@ for espeak+mbrola:
 - install mbrola
 - for installation guide check out <https://youtu.be/stMPWkRvTSA>
 
-for balcon (prefered):
-- run the "install.sh" file
+for balcon:
+- run the "balcon_install.sh" file
+
+for festival:
+- run the command: sudo apt-get install festival
+
+for mimic3 (prefred):
+- run the "mimic3_install.sh" file
 
 
 # Function explanation:

@@ -11,18 +11,12 @@ for espeak+mbrola:
 - for installation guide check out <https://youtu.be/stMPWkRvTSA>
 
 for balcon (prefered):
-- run the "balcon_install.sh" file
-
-for festival:
-- install festival using the command: sudo apt-get install festival
-
-for mimic3 (prefered):
-- run the "mimic3_install.sh" file
+- run the "install.sh" file
 
 
 # Function explanation:
 
-1. espeak(text, voice, pitch, speed):
+1. speak(text, voice, pitch, speed):
   - Speak the text given to it
   - text: the text to be translated to speech
   - voice: the name of the voice which will read out the text
@@ -32,13 +26,13 @@ for mimic3 (prefered):
   - vol: the volume in integer range from 0 to 200 (default is 100)
   - gap: the pause between words in the unit of centisecond (default is 0)
 
-2. espeak_get_voices():
+2. get_voices():
   - print the name of the voices to the terminal
   - there are two batches 
   - the first is the espeak voices
   - the second is the mbrola voices (prefered compared to the espeak)
 
-3. espeak_help():
+3. help():
   - list all commands which could be run in the terminal with espeak
   - equivalent to running "espeak -h" in the terminal
 
@@ -52,12 +46,4 @@ for mimic3 (prefered):
   - Con: I have no idea how the command works
 
 7. balcon_list():
-<<<<<<< HEAD
-  - list all SAPI voices in the terminal
-
-8. mimic(text, voice):
-  - speak the text using a mimic3 voice
-  - voice's default value is 'en_US/cmu-arctic_low'
-=======
   - list all available SAPI voices
->>>>>>> 331becdef51b5fcb52f9258187db62ca3fb17420

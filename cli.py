@@ -29,7 +29,8 @@ def balcon(text, name='ZiraPro', pitch=0):
 def balcon_list():
     cmdLine.run('WINEPREFIX="$HOME/prefix32" wine "$HOME/prefix32/drive_c/Program Files/balcon.exe" balcon -l', shell=True)
 
+#?---------------------------------------------------------
 def mimic(text, voice='en_US/cmu-arctic_low'):
     cmdLine.run(f'mimic3 -v {voice} "{text}"',shell='True')
-
+#?---------------------------------------------------------
 
